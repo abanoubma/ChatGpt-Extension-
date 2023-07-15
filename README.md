@@ -2,6 +2,9 @@
 
 Daily Assistant is a Chrome extension tool that helps users manage their daily tasks with ease. It includes a range of features, such as email reply, text translation, content summarization, and question answering. One unique feature of Daily Assistant is its integration with ChatGPT, a language processing model, which allows users to receive accurate and reliable responses to their queries on Google search. Overall, Daily Assistant is an all-in-one productivity solution that can help users streamline their workflow and achieve their goals.
 
+**Check the following Demo** 
+https://drive.google.com/file/d/1lt-RaZ5CQRyxbhKXQ0-X7Hp3EI9KQlXT/view?usp=sharing
+
 
 **Email Reply:**  Daily Assistant Allows Users To Reply To Emails Directly From Their Browser, Without Having leave their workflow.
 
