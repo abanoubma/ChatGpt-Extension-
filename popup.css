@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .chat-wrapper {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-height: 400px;
+    margin-bottom: 20px;
+    overflow: auto;
+  }
+
+  .chat-history {
+    padding: 10px;
+    overflow: auto;
+    max-height: 300px;
+    background-color: #fff;
+  }
+
+  .chat-bubble {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.5;   
+    display: block;
+  }
+
+  .user {
+    background-color: #3f51b5;
+    color: #fff;
+    float: right;
+  }
+
+  .response {
+    background-color: #f2f2f2;
+    color: #000;   
+  }
+
+  .chat-input-wrapper {
+    display: flex;
+  }
+
+  .chat-input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .key-input {
+    margin-top: 16px;
+    width: 500px;
+    margin-right: 10px;
+  }
+
+  .chat-btn {
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1.5;
+    transition: background-color 0.3s;
+  } 
+  .key-btn {
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1.5;
+    transition: background-color 0.3s;
+  }
+
+  .chat-btn:hover {
+    background-color: #2c3e50;
+  }
+
+  .clear-chat-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1.5;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+  }
+
+  .clear-chat-btn:hover {
+    background-color: #c0392b;
+  }
+
+  .chat-history-label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .badge {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 6px;   
+    margin-left: 5px;
+  }
+
+  .hideHistory{
+    display: none;
+  }
+
+  .tabcontent {
+    display: none;
+  }
+
+  /* Style the tab buttons */
+  .tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: 0.3s;
+  }
+
+
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  li {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    display: inline-block;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;  
+    letter-spacing: 1px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  li:hover {
+   
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .list-item {
+    color: #007bff;
+  }
+
+  .selected {
+    background-color: #007aff;
+    color: #fff;
+  }
+
+  .actionColor{
+    background-color: #3f51b5;
+  }
+
+  .badge-red {
+    background-color: #f42c0d;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 6px;   
+    margin-left: 5px;
+  }
+
+  pre {
+    background-color: #f2f2f2;
+    color: #000;   
+    padding: 1em;
+    border-radius: 3px;
+    overflow: scroll;
+  }
+
+  .copy-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .copy-button:hover {
+    background-color: #ddd;
+  }
+  .spinner {
+    border: 0.25em solid rgba(0, 0, 0, 0.1);
+    border-top-color: #0078d4;
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+    animation: spinner 0.6s linear infinite;
+  }
+  
+  @keyframes spinner {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .logo svg {
+    width: 3em;
+    height: 3em;
+    margin-right: 0.5em;
+  }
+  
+  .logo h2 {
+    margin: 0;
+    color: #4CAF50;
+  }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>ChatGPT</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body id="taget-element" style="width: 700px;">  
+  <div class="logo">
+    <svg viewBox="0 0 200 200">
+      <path fill="#4CAF50" d="M100,30l-70,70h40v60h60v-60h40l-70,-70z"/>
+      <path fill="#FFF" d="M105,80l-15,15v30h-20v-30l-15,-15h-10l-15,15v30h-20v-30l-15,-15v-10l15,-15v-30h20v30l15,15h10l15,-15v-30h20v30l15,15v10z"/>
+    </svg>
+    <h2>ChatGPT</h2>
+  </div>
+
+  <div class="chat-input-wrapper">
+    <input type="text" class="key-input" id="input-key" placeholder="Enter your ChatGpt Key here..."></textarea>  
+    <div>
+      <br>
+    <button class="key-btn">Set Key</button>
+    </div>
+  </div>
+
+  <div class="tab-content active" data-tab="tasks">
+    <ul id="task-list">
+      <li class="list-item" id="list-item-1">summarize The Following Text</li>
+      <li class="list-item" id="list-item-2">Reply This Email</li>
+      <li class="list-item" id="list-item-2">Reject This Email</li>
+      <li class="list-item" id="list-item-3">Translate The Following Text To English</a></li>   
+      <li class="list-item" id="list-item-3">Translate The Following Text To Arabic</a></li> 
+      <li class="list-item" id="list-item-5"> Answer The Following Question</a></li>    
+    </ul>
+  </div>  
+  <br>
+  <div class="chat-wrapper"> 
+    <div class="chat-input-wrapper">
+      <textarea type="text" class="chat-input" id="input-box" placeholder="Type your message here..."></textarea>  
+      <div>
+        <br>
+      <button class="chat-btn">Send</button>
+      <button class="clear-chat-btn">Clear Chat</button>
+      </div>
+    </div>
+    <br>   
+   
+    <div class="history-block hideHistory">
+      <div class="chat-history-label">
+        <span class="badge-red">History</span>
+      </div>
+      <div class="chat-history"></div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script> -->
+</body>
+
+</html
